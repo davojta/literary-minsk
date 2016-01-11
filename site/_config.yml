@@ -1,0 +1,12 @@
+# Site settings
+title: Літэратурны Мінск
+email: dzianis.sheka@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Інтэрактыўная мапа Літэратурнага Мінску
+baseurl: "/literary-minsk" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: davojta
+github_username:  davojta
+
+# Build settings
+markdown: kramdown
