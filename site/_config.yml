@@ -3,8 +3,14 @@ title: Літэратурны Мінск
 email: dzianis.sheka@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Інтэрактыўная мапа Літэратурнага Мінску
+
+
+
 baseurl: "/literary-minsk" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+
+repository: https://github.com/davojta/literary-minsk
+
+url: "http://davojta.github.io/literacy-minsk/" # the base hostname & protocol for your site
 twitter_username: davojta
 github_username:  davojta
 
