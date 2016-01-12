@@ -1,0 +1,1 @@
+module.exports = require("github:octavioturra/color2color@master/color2color.js");

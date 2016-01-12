@@ -1,0 +1,1 @@
+module.exports = require("bower:TweenJS@0.6.1/lib/tweenjs-0.6.1.combined.js");

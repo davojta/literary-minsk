@@ -1,0 +1,40 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-helpers": "^1.5.2",
+    "jspm": "^0.16.20",
+    "jspm-bower-endpoint": "^0.3.2"
+  },
+  "jspm": {
+    "format": "es6",
+    "directories": {
+      "baseURL": "dist",
+      "lib": "src",
+      "packages": "jspm_packages"
+    },
+    "configFile": "system.config.js",
+    "dependencies": {
+      "PreloadJS": "bower:PreloadJS@^0.6.1",
+      "SoundJS": "bower:SoundJS@^0.6.1",
+      "TweenJS": "bower:TweenJS@^0.6.1",
+      "css": "github:systemjs/plugin-css@^0.1.6",
+      "jquery": "github:components/jquery@^2.1.4",
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "leaflet": "github:Leaflet/Leaflet@^0.7.3",
+      "lodash": "npm:lodash@^3.9.3",
+      "octavioturra/color2color": "github:octavioturra/color2color@master",
+      "velocity": "github:julianshapiro/velocity@^1.2.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-plugin-transform-es2015-modules-systemjs": "npm:babel-plugin-transform-es2015-modules-systemjs@^6.4.0",
+      "babel-preset-stage-0": "npm:babel-preset-stage-0@^6.3.13",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "scripts": {
+    "postinstall": "jspm install"
+  }
+}

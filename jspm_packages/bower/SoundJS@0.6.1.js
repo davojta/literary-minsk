@@ -1,0 +1,1 @@
+module.exports = require("bower:SoundJS@0.6.1/lib/soundjs-0.6.1.combined.js");

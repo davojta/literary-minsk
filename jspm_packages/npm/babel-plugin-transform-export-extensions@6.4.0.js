@@ -1,0 +1,1 @@
+module.exports = require("npm:babel-plugin-transform-export-extensions@6.4.0/lib/index.js");

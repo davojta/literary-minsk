@@ -1,0 +1,1 @@
+module.exports = require("npm:babel-plugin-transform-async-to-generator@6.4.0/lib/index.js");
