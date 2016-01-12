@@ -9,9 +9,7 @@
   "jspm": {
     "format": "es6",
     "directories": {
-      "baseURL": "dist",
-      "lib": "src",
-      "packages": "jspm_packages"
+      "lib": "src"
     },
     "configFile": "system.config.js",
     "dependencies": {
@@ -19,6 +17,7 @@
       "SoundJS": "bower:SoundJS@^0.6.1",
       "TweenJS": "bower:TweenJS@^0.6.1",
       "css": "github:systemjs/plugin-css@^0.1.6",
+      "dwa012/html5-qrcode": "github:dwa012/html5-qrcode@master",
       "jquery": "github:components/jquery@^2.1.4",
       "json": "github:systemjs/plugin-json@^0.1.0",
       "leaflet": "github:Leaflet/Leaflet@^0.7.3",

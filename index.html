@@ -3,8 +3,19 @@ layout: default
 ---
 
 <div class="home">
+    <audio style="display: none;" id="audio" >
+        <source src="http://files.knihi.com/Knihi/nlb.by/Kupala/a_hto_tam_idze.mp3" type="audio/ogg">
+        Ваш броўзар не падтрымлівае праслухоўваньне аўдыё ў HTML5.
+    </audio>
+    <audio style="display: none;" id="brouka_audio" >
+        <source src="{{ '/audio/brouka.mp3' | prepend: site.baseurl }}" type="audio/mp3">
+        Ваш броўзар не падтрымлівае праслухоўваньне аўдыё ў HTML5.
+    </audio>
 
   <h1 class="page-heading">Літаратурны Мінск</h1>
+
+    <div id="reader" style="width:300px;height:250px">
+    </div>
 
         <div id="map" >
         </div>

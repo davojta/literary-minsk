@@ -8,9 +8,9 @@ System.config({
     ]
   },
   paths: {
-    "github:*": "/literary-minsk/jspm_packages/github/*",
-    "npm:*": "/literary-minsk/jspm_packages/npm/*",
-    "bower:*": "/literary-minsk/jspm_packages/bower/*"
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*",
+    "bower:*": "jspm_packages/bower/*"
   },
   buildCSS: false,
   separateCSS: false,
@@ -35,6 +35,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.12",
+    "dwa012/html5-qrcode": "github:dwa012/html5-qrcode@master",
     "jquery": "github:components/jquery@2.1.4",
     "json": "github:systemjs/plugin-json@0.1.0",
     "leaflet": "github:Leaflet/Leaflet@0.7.3",
