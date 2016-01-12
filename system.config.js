@@ -1,5 +1,5 @@
 System.config({
-  baseURL: ".",
+  baseURL: "/literary-minsk/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
@@ -8,9 +8,9 @@ System.config({
     ]
   },
   paths: {
-    "github:*": "../jspm_packages/github/*",
-    "npm:*": "../jspm_packages/npm/*",
-    "bower:*": "../jspm_packages/bower/*"
+    "github:*": "/literary-minsk/jspm_packages/github/*",
+    "npm:*": "/literary-minsk/jspm_packages/npm/*",
+    "bower:*": "/literary-minsk/jspm_packages/bower/*"
   },
   buildCSS: false,
   separateCSS: false,

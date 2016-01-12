@@ -1,7 +1,7 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css!'
 
-L.Icon.Default.imagePath = '/images/'
+L.Icon.Default.imagePath = '/literary-minsk/images/'
 
 
 var map = L.map('map', {
